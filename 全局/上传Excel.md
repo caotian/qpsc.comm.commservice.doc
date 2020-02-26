@@ -3,7 +3,7 @@
 ## 上传Excel
 
 ```
-POST /excel/upload
+POST /excel/v1/upload
 ```
 
 > 请求参数: 
