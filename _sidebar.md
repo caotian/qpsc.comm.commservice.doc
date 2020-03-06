@@ -1,4 +1,5 @@
 - 通用服务
+    - [Websocket服务](/全局/Websocket服务.md)
     - [OSS临时STS](/全局/OSS临时STS.md)
     - [上传Excel](/全局/上传Excel.md)
     - [条码生成](/全局/条码生成.md)
