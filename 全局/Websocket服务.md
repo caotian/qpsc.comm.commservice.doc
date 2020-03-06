@@ -87,6 +87,11 @@ wss://im.qingpai365.com/ws
         <td>发送人姓名</td>
     </tr>
     <tr>
+        <td>fromResource</td>
+        <td>是</td>
+        <td>发送人资源</td>
+    </tr>
+    <tr>
         <td>toId</td>
         <td>是</td>
         <td>接收用户id</td>
@@ -115,6 +120,47 @@ wss://im.qingpai365.com/ws
         <td>offline</td>
         <td>是</td>
         <td>是否离线消息</td>
+    </tr>
+</table>
+
+## 消息历史
+
+```
+GET https://im.qingpai365.com/message-log
+```
+
+> 请求参数: 
+
+<table>
+    <tr>
+        <th>请求参数</th>
+        <th>必须</th>
+        <th>说明</th>
+    </tr>
+    <tr>
+        <td>domain</td>
+        <td>是</td>
+        <td>域</td>
+    </tr>
+    <tr>
+        <td>toId</td>
+        <td>是</td>
+        <td>接收用户id</td>
+    </tr>
+    <tr>
+        <td>fromId</td>
+        <td>-</td>
+        <td>发送人</td>
+    </tr>
+    <tr>
+        <td>page</td>
+        <td>-</td>
+        <td>页码, 默认: 1</td>
+    </tr>
+    <tr>
+        <td>size</td>
+        <td>-</td>
+        <td>每页大小, 默认: 10</td>
     </tr>
 </table>
 
