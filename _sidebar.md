@@ -1,4 +1,5 @@
 - 通用服务
+    - [设备数据](/全局/设备数据.md)
     - [Websocket服务](/全局/Websocket服务.md)
     - [OSS临时STS](/全局/OSS临时STS.md)
     - [上传Excel](/全局/上传Excel.md)
